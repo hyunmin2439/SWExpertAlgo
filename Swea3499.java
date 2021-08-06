@@ -1,7 +1,8 @@
-package notSolved;
+package uploaded;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
@@ -13,7 +14,7 @@ public class Swea3499 {
 	static StringBuilder 	 sb;
 
 	public static void main(String[] args) throws IOException {
-		// System.setIn( new FileInputStream("res/input3499.txt") );
+		System.setIn( new FileInputStream("res/input3499.txt") );
 		br = new BufferedReader( new InputStreamReader(System.in) );
 		bw = new BufferedWriter( new OutputStreamWriter(System.out) );
 		sb = new StringBuilder();
@@ -54,7 +55,7 @@ public class Swea3499 {
 			sb.append(line[i + mid]).append(" ");
 		}
 		
-		// 홀수 일때만 마지막 추가
-		if( !isEven ) sb.append(line[end]).append(" ");
+		if( !isEven ) sb.append(line[end]); // 홀수일 때 원소 하나더 추가
+		else sb.setLength(sb.length() - 1); // 짝수일 때 마지막 공백 제거
 	}
 }
