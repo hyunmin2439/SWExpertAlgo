@@ -1,4 +1,4 @@
-package swea_algo;
+package myAlgo;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -28,6 +28,7 @@ public class Swea6808 {
 			win = 0; lose = 0;
 			Arrays.fill(counting, false); // false로 값 초기화
 			
+			// guyung 카드 배열 초기화
 			StringTokenizer st = new StringTokenizer(br.readLine());
 			for (int i = 0; i < 9; i++) {
 				guyung[i] = Integer.parseInt(st.nextToken());
