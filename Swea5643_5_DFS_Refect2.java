@@ -3,6 +3,8 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// 다섯번째 풀이
+
 // DP로 최적화를 한 방법
 
 // 시간복잡도 대폭 단축됐다.
@@ -14,6 +16,8 @@ import java.util.StringTokenizer;
 // 0번째 열에 값을 -1로 두고, 탐색 후 다른 값 바꿈 -> 자신보다 큰 학생 수
 
 // dfs 탐색부분이 조금 복잡하게 짜여져 있다.
+
+// 맨 아래 예시를 적어놓았다.
 
 // Memory:103,796KB / Time:470ms
 public class Swea5643_5_DFS_Refect2 {
