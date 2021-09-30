@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 // 1보다 큰 학생따라 탐색 => 1보다 작은 학생따라 탐색
 // 	카운팅		    카운팅
 // 1보다 큰 학생수     +    1보다 작은학생수 = N - 1  자신의 키가 몇번째인지 알 수 있다.
-// 	진출차수 		진입차수
+// 	진출차수               진입차수
 
 // Memory:107,492KB / Time:2,293ms
 public class Swea5643_2_BFS {
