@@ -5,7 +5,7 @@ import java.util.StringTokenizer;
 
 // 다섯번째 풀이
 
-// DP로 최적화를 한 방법
+// 가장 최적화를 한 방법
 
 // 시간복잡도 대폭 단축됐다.
 
