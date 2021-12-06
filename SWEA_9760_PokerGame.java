@@ -14,7 +14,7 @@ import java.io.InputStreamReader;
 9. High card : 1~8번에 해당하지 않는다.  
 */
 
-public class Swea9760 {
+public class SWEA_9760_PokerGame {
 
 	static int T;
 	static char[] suit = {'S', 'D', 'H', 'C'};
