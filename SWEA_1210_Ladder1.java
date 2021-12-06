@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class Swea1210 {
+public class SWEA_1210_Ladder1 {
 
 	static boolean[][] ladder;
 	
