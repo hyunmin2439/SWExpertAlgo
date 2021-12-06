@@ -10,7 +10,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class Swea1225 {
+public class SWEA_1225_암호생성기 {
 
 	static int t;
 	static Queue<Integer> queue;
