@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Stack;
 
 // 후위 표기식 계산 알고리즘
-public class Swea1223 {
+public class SWEA_1223_계산기2 {
 
 	static int N, res;
 	static char[] arr;
