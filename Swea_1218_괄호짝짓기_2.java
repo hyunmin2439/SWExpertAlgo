@@ -10,7 +10,7 @@ import java.util.Stack;
 
 // SW Expert Academy, nanoTime으로 재봤으나 차이없고 오히려 느릴 때 많음
 // 즉, br.read()로 읽어서 시간을 줄이기보다 코드를 알기 쉽게 다듬는 것이 나아보임.
-public class Swea1218_2 {
+public class Swea_1218_괄호짝짓기_2 {
 //							0    1    2    3    4    5    6    7
 	static char[] list = { '(', '[', '{', '<', ')', ']', '}', '>' };
 	
