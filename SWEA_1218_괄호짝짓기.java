@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.Stack;
 
-public class Swea1218 {
+public class SWEA_1218_괄호짝짓기 {
 //							0    1    2    3    4    5    6    7
 	static char[] list = { '(', '[', '{', '<', ')', ']', '}', '>' };
 	
