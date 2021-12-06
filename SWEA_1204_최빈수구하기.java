@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class Swea1204 {
+public class SWEA_1204_최빈수구하기 {
 
 	public static void main(String[] args) throws IOException {
 		System.setIn(new FileInputStream("res/input.txt"));
